@@ -15,11 +15,12 @@ html {
 .topnav { 
     overflow: hidden;
     background-color: #a18e87;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* The links inside the navigation bar */
 .topnav a {
-    float: left;
     display: block;
     color: #181515;
     text-align: center;
@@ -27,7 +28,6 @@ html {
     text-decoration: none;
     font-size: 1.3em;
     font-weight: bold;
-    
 }
 
 /* Colour of the links when hovered */
@@ -412,6 +412,14 @@ textarea:focus {
     float: right;
     display: block;
   }
+    
+    .topnav a:first-child {
+        float: left;
+    }
+    
+    .topnav {
+        display: block;
+    }
     
 .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
