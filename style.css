@@ -295,6 +295,13 @@ img:not(.logo){
   box-sizing: border-box;
 }
 
+h2 {
+    margin: 5px;
+}
+
+header p {
+    margin: 5px;
+}
 .clearfix:after {
     content:"\0020";
     display:block;
