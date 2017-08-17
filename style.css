@@ -235,7 +235,7 @@ img:not(.logo){
 }
 
 .img-responsive {
-    max-width: 30%;
+    max-width: 33%;
     height: auto;
     border-style: solid;
 }
