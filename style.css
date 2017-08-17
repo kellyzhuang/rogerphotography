@@ -79,7 +79,7 @@ footer {
     height: auto;
 }
     
-.follow img {
+.follow a {
     display: inline-block;
 }
 
@@ -303,6 +303,23 @@ header p {
     margin: 5px;
     font-size: 0.8em;
 }
+
+form input, 
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 6px 10px;
+    margin: 5px 0;
+}
+
+form textarea {
+    height: 100px;
+    font-family: sans-serif;
+    line-height: 130px;
+}
+
 .clearfix:after {
     content:"\0020";
     display:block;
