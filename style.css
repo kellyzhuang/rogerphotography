@@ -301,6 +301,7 @@ h2 {
 
 header p {
     margin: 5px;
+    font-size: 0.8em;
 }
 .clearfix:after {
     content:"\0020";
