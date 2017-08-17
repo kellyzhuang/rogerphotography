@@ -149,7 +149,7 @@ img:not(.logo){
 }
 
 .thumbnail-title:before {
-    content: url('D:/images/map.png');
+    content: url('images/map.png');
     margin: 10px;
 }
 
