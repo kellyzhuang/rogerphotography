@@ -55,7 +55,7 @@ html {
 }
 
 body { margin: 0;} 
-div#slider { overflow: hidden; max-width: 100%; height: auto; max-height: 60vh;}
+div#slider { overflow: hidden; max-width: 100%; height: auto; max-height: 58vh;}
 div#slider figure img { width: 20%; float: left; }
 div#slider figure { 
   position: relative;
@@ -69,7 +69,7 @@ div#slider figure {
 footer {
   background-color: #b1a096;
   color: #181515;
-  padding: 2%;
+  padding: 0.5%;
   text-align: center;
   font-weight: bold;
 }
