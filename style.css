@@ -295,10 +295,6 @@ img:not(.logo){
   box-sizing: border-box;
 }
 
-h2 {
-    margin: 5px;
-}
-
 header p {
     margin: 5px;
     font-size: 0.8em;
