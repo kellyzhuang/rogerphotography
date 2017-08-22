@@ -55,7 +55,7 @@ html {
 }
 
 body { margin: 0;} 
-div#slider { overflow: hidden; max-width: 100%; height: auto; max-height: 80vh; padding-bottom: 105px;}
+div#slider { overflow: hidden; max-width: 100%; height: auto; max-height: 87vh; padding-bottom: 105px;}
 div#slider figure img { width: 20%; float: left; }
 div#slider figure { 
   position: relative;
@@ -86,6 +86,10 @@ footer {
 h1 {
     text-align: center;
     font-size: 3.2em;
+}
+
+h2, p {
+    margin-left: 50px;
 }
 
 *,*:after,*:before{
@@ -277,8 +281,9 @@ img:not(.logo){
     padding-bottom: 30%;
     position:relative;
     height:0;
-    margin: 5px;
     border-style: solid;
+    width: 90%;
+    margin-left: 50px;
 }
 
 .map-responsive iframe {
@@ -296,7 +301,7 @@ img:not(.logo){
 }
 
 header p {
-    margin: 5px;
+    margin-left: 50px;
     font-size: 0.8em;
 }
 
@@ -370,5 +375,9 @@ form textarea {
     margin-left: auto;
     margin-right: auto;
 }       
+    
+.map-responsive {
+    width: 80%;
+}
     
 }
