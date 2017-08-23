@@ -92,6 +92,10 @@ h2, p {
     margin-left: 50px;
 }
 
+h5 {
+    margin-left: 50px;
+}
+
 *,*:after,*:before{
   box-sizing:border-box;
 }
